@@ -19,7 +19,7 @@ class ManageUserController extends Controller
     {
         return view('users.index', [
             'title' => 'Users List',
-            'users' => User::withTrashed()->where('is_admin', false)->get()
+            'users' => User::withTrashed()->where('is_admin', false)->orderByDesc('created_at')->get()
         ]);
     }
 
@@ -61,7 +61,7 @@ class ManageUserController extends Controller
         //     User::where('name', $activity->name)->where('id', '!=', $user->id)->delete();
         // });
 
-        $allUsers = User::where('is_admin', false)->get()->map->only(['email', 'id']);
+        $allUsers = User::where('is_admin', false)->orderByDesc('created_at')->get()->map->only(['email', 'id']);
 
         if (count($allUsers) > 1) {
 

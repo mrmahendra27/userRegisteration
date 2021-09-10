@@ -49,7 +49,7 @@ class RegisterController extends Controller
                 ->symbols()
             ],
         ], [
-            'mobile.regex' => 'Number should start with 91',
+            'mobile.regex' => 'Mobile Number should start with 91',
         ]);
     }
 
