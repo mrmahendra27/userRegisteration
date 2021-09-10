@@ -1,0 +1,9 @@
+git clone https://github.com/mrmahendra27/userRegisteration.git
+cd directory
+composer install
+php artisan storage:link
+php artisan key:generate
+setup .env file and database
+php artisan migrate --seed
+php artisan serve
+
