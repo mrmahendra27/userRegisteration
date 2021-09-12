@@ -38,8 +38,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#"
                                 onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout(
-                                <span
-                                    class="mr-2 d-none d-lg-inline text-gray-600 small">{{ auth()->user()->fullname }}</span>)</a>
+                                {{ auth()->user()->fullname }})</a>
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf
                             </form>

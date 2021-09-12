@@ -12,31 +12,31 @@
             <input type="text" class="form-control form-control-user" name="first_name" id="FirstName"
                 placeholder="Enter First Name" value="{{ old('first_name') }}">
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 mb-3 mb-sm-0"">
             <input type="text" class="form-control form-control-user" name="last_name" id="LastName"
                 placeholder="Enter Last Name" value="{{ old('last_name') }}">
         </div>
     </div>
     <div class="form-group row">
-        <div class="col-sm-6">
+        <div class="col-sm-6 mb-3 mb-sm-0"">
             <input type="email" class="form-control form-control-user" name="email" id="InputEmail"
                 placeholder="Enter Email Address" value="{{ old('email') }}">
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 mb-3 mb-sm-0"">
             <input type="number" class="form-control form-control-user" name="mobile" id="MobileNumber"
                 placeholder="Enter Mobile Number" value="{{ old('mobile') }}">
         </div>
     </div>
     <div class="form-group row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 mb-3 mb-sm-0"">
             <input type="text" class="form-control form-control-user" name="state" id="InputState"
                 placeholder="Enter State" value="{{ old('state') }}">
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 mb-3 mb-sm-0"">
             <input type="text" class="form-control form-control-user" name="city" id="InputCity"
                 placeholder="Enter City" value="{{ old('city') }}">
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 mb-3 mb-sm-0"">
             <input type="number" class="form-control form-control-user" name="pincode" id="InputPincode"
                 placeholder="Enter Pincode" value="{{ old('pincode') }}">
         </div>
@@ -50,7 +50,7 @@
             <input type="password" class="form-control form-control-user" name="password" id="InputPassword"
                 placeholder="Enter Password">
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 mb-3 mb-sm-0"">
             <input type="password" class="form-control form-control-user" name="password_confirmation" id="ConfirmPassword"
                 placeholder="Enter Confirm Password">
         </div>
