@@ -7,3 +7,6 @@ setup .env file and database
 php artisan migrate --seed
 php artisan serve
 
+use this admin login credentials for viewing registered user list
+email :- admin@gmail.com
+password :- Admin@12345
